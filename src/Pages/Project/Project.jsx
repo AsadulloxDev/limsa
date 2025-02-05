@@ -9,7 +9,7 @@ import partnyor from "../../assets/partnyor.jpg";
 import zamon from "../../assets/zamontour.jpg";
 function Project() {
   return (
-    <div className='bg-[#212121] w-[100%] h-auto pl-[30px]'>
+    <div className='bg-[#212121] w-[100%] h-auto pb-[100px] pl-[30px]'>
         <h1 className='text-white text-5xl font-500 text-center pt-[150px]'>Our Recent Projects</h1>
         <div className='grid grid-cols-3'>
             <div className='w-[460px] mt-[30px]'>
