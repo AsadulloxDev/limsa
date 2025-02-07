@@ -1,0 +1,76 @@
+{
+  "navbar": {
+    "home": "Bosh sahifa",
+    "service": "Xizmatlar",
+    "works": "Bizning ishlar",
+    "price": "Narxlar"
+  },
+  "header": {
+    "title": "Biznesingizni rivojlantirish uchun mukammal “IT” yechimlari!",
+    "description": "Loyihangizni 10 yildan ortiq tajribaga ega bo'lgan mutaxassislarga ishonib topshiring tajriba va qisqa vaqt ichida yuqori muvaffaqiyatlarga erishish.",
+    "button": "Bog'lanish"
+  },
+  "section": {
+    "title": "Tez-tez so'raladigan savollar",
+    "questionTitle": "Nega narxlar juda arzon?",
+    "answer": "Biz doimo xizmatlarimizni yaxshilashga intilamiz",
+    "answer2": "Biz yuqori sifatli mahsulotlarni taqdim etishga intilamiz",
+    "answer3": "Biz har doim yangi g'oyalar va takliflarga ochiqmiz"
+  },
+  "project": {
+    "title": "Bizning so'nggi loyihalarimiz",
+    "description": "Ataev Bahadir Build - sifatli qurilish va ta'mirlash xizmatlari! Bizni tanlang, orzuingizdagi uyni yarating."
+  },
+  "footer": {
+    "order_title": "Biznesingiz uchun veb-sayt buyurtma qiling, va bizdan kichik sovg'a sifatida 10% chegirma oling!",
+    "order_subtitle": "Har bir mijozni mamnun qilish - bu bizning eng yuqori maqsadimiz - LIMSA",
+    "pages": "Sahifalar",
+    "home": "Bosh sahifa",
+    "services": "Xizmatlarimiz",
+    "leave_details": "Ma'lumotlaringizni qoldiring",
+    "name_placeholder": "Ismingiz",
+    "phone_placeholder": "+998",
+    "message_placeholder": "Xabaringiz",
+    "send_button": "Yuborish",
+    "contacts": "Kontaktlar",
+    "address_title": "Manzil",
+    "address": "Toshkent shahar, Yunusobod tumani",
+    "phone_title": "Telefon raqam",
+    "phone_number": "+998 (33) 258 73 58",
+    "working_hours_title": "Ish vaqti",
+    "working_hours": "9:00 - 18:00 Dushanba - Shanba",
+    "social_networks": "Ijtimoiy tarmoqlar",
+    "copyright": "© 2024 Limsa. Barcha huquqlar himoyalangan."
+  },
+  "plans": {
+    "title1": "LANDING SAHIFA",
+    "description1": "Bir sahifali saytning boshqa nomi Landing Page hisoblanadi. Bu sahifa qulay va mijoz uchun kerakli ma'lumotlarni taqdim etadi.",
+    "features1": [
+      "Domen UZ",
+      "Himoya 24/7",
+      "Muddati 3 kun",
+      "Sahifalar soni 1"
+    ],
+
+    "title2": "VIZITKA SAYT",
+    "description2": "Bu kompaniyaning internetdagi ‘vizitkasi’ hisoblanadi. Sayt biznes sahifasiga tashrif buyuruvchilar uchun kompaniya xizmatlari yoki mahsulotlarini tanishtiradi.",
+    "features2": [
+      "Domen UZ",
+      "Himoya 24/7",
+      "Muddati 3-7 kun",
+      "Sahifalar soni 2-4"
+    ],
+
+    "title3": "Eksklyuziv",
+    "description3": "Bu sayt sizning buyurtmangiz asosida yaratiladi. Istalgan turdagi saytga buyurtma berishingiz mumkin.",
+    "features3": [
+      "Domen UZ",
+      "Himoya 24/7",
+      "Tillar soni - Istalgan",
+      "Yuqori dizayn darajasi"
+    ],
+
+    "negotiate": "Kelishish",
+    "placeOrder": "Buyurtma berish"
+  }
+}

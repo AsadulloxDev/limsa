@@ -1,0 +1,78 @@
+{
+  "navbar": {
+    "home": "Home",
+    "service": "Services",
+    "works": "Our Works",
+    "price": "Prices"
+  },
+
+  "header": {
+    "title": "Perfect IT solutions to grow your business!",
+    "description": "Entrust your project to specialists with over 10 years of experience and achieve great success in a short time.",
+    "button": "Contact Us"
+  },
+  "section": {
+    "title": "Frequently Asked Questions",
+    "questionTitle": "Why are the prices so low?",
+    "answer": "We always strive to improve our services",
+    "answer2": "We aim to provide high-quality products",
+    "answer3": "We are always open to new ideas and suggestions"
+  },
+  "project": {
+    "title": "Our Latest Projects",
+    "description": "Ataev Bahadir Build - quality construction and renovation services! Choose us to create the home of your dreams."
+  },
+
+  "footer": {
+    "order_title": "Order a website for your business now, And get a small gift from us - 10% off!",
+    "order_subtitle": "Satisfying every customer is our highest goal - LIMSA",
+    "pages": "Pages",
+    "home": "Home",
+    "services": "Our Services",
+    "leave_details": "Leave your details",
+    "name_placeholder": "Your name",
+    "phone_placeholder": "+998",
+    "message_placeholder": "Your message",
+    "send_button": "Send",
+    "contacts": "Contacts",
+    "address_title": "Address",
+    "address": "Tashkent city, Yunusabad district",
+    "phone_title": "Phone Number",
+    "phone_number": "+998 (33) 258 73 58",
+    "working_hours_title": "Working hours",
+    "working_hours": "9:00 - 18:00 Monday-Saturday",
+    "social_networks": "Social networks",
+    "copyright": "© 2024 Limsa. All rights reserved."
+  },
+  "plans": {
+    "title1": "LANDING PAGE",
+    "description1": "Another name for a one-page site is a Landing Page. The page is easy to use and introduces the customer to the information they need.",
+    "features1": [
+      "Domain UZ",
+      "Protection 24/7",
+      "Duration 3 days",
+      "Number of pages 1"
+    ],
+
+    "title2": "SITE CARD",
+    "description2": "It is the ‘business card’ of the company on the Internet. The site is to introduce the company’s services or products to the people visiting the business page.",
+    "features2": [
+      "Domain UZ",
+      "Protection 24/7",
+      "Duration 3-7 days",
+      "Number of pages 2-4"
+    ],
+
+    "title3": "Exclusive",
+    "description3": "This website is created based on your order. You can order any website you want.",
+    "features3": [
+      "Domain UZ",
+      "Protection 24/7",
+      "Number of languages - Desired",
+      "High Design Level"
+    ],
+
+    "negotiate": "Negotiate",
+    "placeOrder": "Place Order"
+  }
+}

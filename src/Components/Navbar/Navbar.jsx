@@ -1,10 +1,18 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../../assets/Logo-limsa.png";
+import { useTranslation } from "react-i18next";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = (lang) => {
+    console.log(lang);
+    
+    i18n.changeLanguage(lang);
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -18,19 +26,17 @@ function Navbar() {
     <div>
       <nav
         className={`fixed z-50 flex justify-between w-full p-[20px] items-center transition-all duration-300 ${
-          !scrolled
-            ? "bg-transparent shadow-2xl"
-            : "bg-[#1A1A1A]"
+          !scrolled ? "bg-transparent shadow-2xl" : "bg-[#1A1A1A]"
         }`}
       >
         <div className="flex items-center gap-10">
           <img src={logo} className="w-[150px]" alt="Logo" />
           <ul className="hidden md:flex gap-[20px] text-white">
             {[
-              { name: "Home", path: "/" },
-              { name: "Our Services", path: "/services" },
-              { name: "Our Works", path: "/works" },
-              { name: "Prices", path: "/prices" },
+              { name: t("navbar.home"), path: "/" },
+              { name: t("navbar.service"), path: "/services" },
+              { name: t("navbar.works"), path: "/works" },
+              { name: t("navbar.price"), path: "/prices" },
             ].map((item, index) => (
               <li key={index}>
                 <NavLink
@@ -46,16 +52,14 @@ function Navbar() {
               </li>
             ))}
           </ul>
-          <select className="hidden md:block text-white bg-transparent rounded-md py-2 px-4 focus:ring-2 focus:ring-purple-500 focus:outline-none">
-            <option className="text-gray-700" value="Uz">
-              Uz
-            </option>
-            <option className="text-gray-700" value="Eng">
-              Eng
-            </option>
-            <option className="text-gray-700" value="Rus">
-              Rus
-            </option>
+
+          <select
+            className="hidden md:block text-white bg-transparent rounded-md py-2 px-4 focus:ring-2 focus:ring-purple-500 focus:outline-none"
+            onChange={(e) => changeLanguage(e.target.value)}
+          >
+            <option value="uz" className="text-gray-600">Uz</option>
+            <option value="eng" className="text-gray-600">Eng</option>
+            <option value="ru" className="text-gray-600">Ru</option>
           </select>
         </div>
         <button className="hidden md:block bg-purple-700 text-white w-[170px] h-[40px] rounded-xl border-purple-700 hover:bg-transparent hover:border hover:border-purple-700 hover:scale-[1.1] transition-all duration-300">
@@ -73,7 +77,7 @@ function Navbar() {
           isOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
-        {["Home", "Our Services", "Our Works", "Prices"].map((item, index) => (
+        {[t("navbar.home"), t("navbar.service"), t("navbar.works"), t("navbar.price")].map((item, index) => (
           <NavLink
             key={index}
             to={`/${item.toLowerCase().replace(" ", "")}`}
@@ -87,10 +91,14 @@ function Navbar() {
             {item}
           </NavLink>
         ))}
-        <select className="text-white bg-black border border-gray-600 rounded-md py-2 px-4 focus:ring-2 focus:ring-purple-500 focus:outline-none">
-          <option value="Uz">Uz</option>
-          <option value="Eng">Eng</option>
-          <option value="Rus">Rus</option>
+        
+        <select 
+          className="text-white bg-black border border-gray-600 rounded-md py-2 px-4 focus:ring-2 focus:ring-purple-500 focus:outline-none"
+          onChange={(e) => changeLanguage(e.target.value)}
+        >
+          <option value="Uz">O‘zbek</option>
+          <option value="Eng">English</option>
+          <option value="Rus">Русский</option>
         </select>
       </div>
     </div>
