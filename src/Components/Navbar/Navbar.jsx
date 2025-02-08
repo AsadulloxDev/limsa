@@ -10,7 +10,6 @@ function Navbar() {
 
   const changeLanguage = (lang) => {
     console.log(lang);
-    
     i18n.changeLanguage(lang);
   };
 
@@ -31,7 +30,7 @@ function Navbar() {
       >
         <div className="flex items-center gap-10">
           <img src={logo} className="w-[150px]" alt="Logo" />
-          <ul className="hidden md:flex gap-[20px] text-white">
+          <ul className="hidden lg:flex gap-[20px] text-white">
             {[
               { name: t("navbar.home"), path: "/" },
               { name: t("navbar.service"), path: "/services" },
@@ -54,7 +53,7 @@ function Navbar() {
           </ul>
 
           <select
-            className="hidden md:block text-white bg-transparent rounded-md py-2 px-4 focus:ring-2 focus:ring-purple-500 focus:outline-none"
+            className="hidden lg:block text-white bg-transparent rounded-md py-2 px-4 focus:ring-2 focus:ring-purple-500 focus:outline-none"
             onChange={(e) => changeLanguage(e.target.value)}
           >
             <option value="uz" className="text-gray-600">Uz</option>
@@ -62,11 +61,11 @@ function Navbar() {
             <option value="ru" className="text-gray-600">Ru</option>
           </select>
         </div>
-        <button className="hidden md:block bg-purple-700 text-white w-[170px] h-[40px] rounded-xl border-purple-700 hover:bg-transparent hover:border hover:border-purple-700 hover:scale-[1.1] transition-all duration-300">
+        <button className="hidden lg:block bg-purple-700 text-white w-[170px] h-[40px] rounded-xl border-purple-700 hover:bg-transparent hover:border hover:border-purple-700 hover:scale-[1.1] transition-all duration-300">
           +998 (33) 258 73 58
         </button>
         <button
-          className="md:hidden text-white text-2xl z-50"
+          className="lg:hidden text-white text-2xl z-50"
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? "✖" : "☰"}
@@ -77,10 +76,15 @@ function Navbar() {
           isOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
-        {[t("navbar.home"), t("navbar.service"), t("navbar.works"), t("navbar.price")].map((item, index) => (
+        {[ 
+          { name: t("navbar.home"), path: "/" },
+          { name: t("navbar.service"), path: "/services" },
+          { name: t("navbar.works"), path: "/works" },
+          { name: t("navbar.price"), path: "/prices" }
+        ].map((item, index) => (
           <NavLink
             key={index}
-            to={`/${item.toLowerCase().replace(" ", "")}`}
+            to={item.path}
             className={({ isActive }) =>
               isActive
                 ? "text-white text-xl hover:text-purple-700 transition-colors duration-300 bg-purple-700"
@@ -88,7 +92,7 @@ function Navbar() {
             }
             onClick={() => setIsOpen(false)}
           >
-            {item}
+            {item.name}
           </NavLink>
         ))}
         
@@ -96,9 +100,9 @@ function Navbar() {
           className="text-white bg-black border border-gray-600 rounded-md py-2 px-4 focus:ring-2 focus:ring-purple-500 focus:outline-none"
           onChange={(e) => changeLanguage(e.target.value)}
         >
-          <option value="Uz">O‘zbek</option>
-          <option value="Eng">English</option>
-          <option value="Rus">Русский</option>
+          <option value="uz">O‘zbek</option>
+          <option value="eng">English</option>
+          <option value="ru">Русский</option>
         </select>
       </div>
     </div>

@@ -12,10 +12,10 @@ const Section = () => {
   return (
     <div className="bg-[#212121] flex justify-around items-center py-20">
       <div className="flex gap-[50px] mt-[100px]">
-        <div>
+        <div className="xl:block hidden">
           <img className="h-[450px]" src={img1} alt="FAQ Image 1" />
         </div>
-        <div>
+        <div className="lg:block hidden">
           <img className="h-[450px] mt-[100px]" src={img2} alt="FAQ Image 2" />
         </div>
       </div>
@@ -52,7 +52,7 @@ const Section = () => {
         }].map((item, index) => (
           <div
             key={index}
-            className="w-[550px] border border-white p-[15px] rounded-2xl mt-4 cursor-pointer transition-all duration-300"
+            className="md:w-[550px] w-[] border border-white p-[15px] rounded-2xl mt-4 cursor-pointer transition-all duration-300"
             onClick={() => item.setState(!item.state)}
           >
             <div className="flex justify-between items-center">
