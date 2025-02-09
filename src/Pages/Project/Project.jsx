@@ -56,7 +56,7 @@ function Project() {
                 <p><a className='font-500 text-center text-white' href="https://www.ataevbahodirbuild.uz/">{t("project.description")}</a></p>
                 <hr className='bg-gray-500 sm:w-[450px] w-auto mt-[20px] mx-auto h-[2px]' />
             </div>
-            <div className='sm:w-[450px] w-[325px]] mt-[30px] mx-auto'>
+            <div className='sm:w-[450px] w-[325px] mt-[30px] mx-auto'>
                 <a href="https://www.ataevbahodirbuild.uz/" className='font-bold text-white ml-[10px]'>ataevbahodirbuild.uz</a>
                 <img className='w-[450px] mt-[10px] mb-[15px]  hover:scale-[1.1] transition-all duration-[0.4s]' src={zamon} alt="" />
                 <p><a className='font-500 text-center text-white' href="https://www.ataevbahodirbuild.uz/">{t("project.description")}</a></p>
