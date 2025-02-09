@@ -14,7 +14,7 @@ function Header() {
 
       <div className="block items-center sm:flex p-[20px] absolute top-[90px]">
         <div className="ml-10">
-          <h1 className="text-white font-[500] text-4xl md:w-[580px] w-[450px]">
+          <h1 className="text-white font-[500] text-4xl md:w-[580px] w-auto">
             {t("header.title")}
           </h1>
           <p className="text-gray-300 md:w-[575px] text-[18px] mt-[20px]">
@@ -25,7 +25,7 @@ function Header() {
           </button>
         </div>
         <div>
-          <img src={kompImg} alt="" />
+          <img className="w-[80%] mt-[30px] mx-auto sm:w-[100%]" src={kompImg} alt="" />
         </div>
       </div>
     </header>
