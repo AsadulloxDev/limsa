@@ -13,50 +13,50 @@ function Project() {
   return (
     <div className='bg-[#212121] w-[100%] h-auto pb-[100px] pl-[30px]'>
         <h1 className='text-white text-5xl font-500 text-center pt-[150px]'>{t("project.title")}</h1>
-        <div className='grid lg:ml-[0px] ml-[0px] sm:ml-[100px] lg:grid-cols-2 px-auto grid-cols-1 justify-between 2xl:grid-cols-3 ml'>
-            <div className='w-[460px] mt-[30px]'>
+        <div className='grid lg:grid-cols-2 px-auto grid-cols-1 justify-between 2xl:grid-cols-3 ml'>
+            <div className='w-[460px] mt-[30px] mx-auto'>
                 <a href="https://www.ataevbahodirbuild.uz/" className='font-bold text-white ml-[10px]'>ataevbahodirbuild.uz</a>
                 <img className='w-[450px] mt-[10px] mb-[15px]  hover:scale-[1.1] transition-all duration-[0.4s]' src={Atayev} alt="" />
                 <p><a className='font-500 text-center text-white' href="https://www.ataevbahodirbuild.uz/">{t("project.description")}</a></p>
                 <hr className='bg-gray-500 w-[450px] mt-[20px] mx-auto h-[2px]' />
             </div>
-            <div className='w-[460px] mt-[30px]'>
+            <div className='w-[460px] mt-[30px] mx-auto'>
                 <a href="https://www.ataevbahodirbuild.uz/" className='font-bold text-white ml-[10px]'>ataevbahodirbuild.uz</a>
                 <img className='w-[450px] mt-[10px] mb-[15px]  hover:scale-[1.1] transition-all duration-[0.4s]' src={avto} alt="" />
                 <p><a className='font-500 text-center text-white' href="https://www.ataevbahodirbuild.uz/">{t("project.description")}</a></p>
                 <hr className='bg-gray-500 w-[450px] mt-[20px] mx-auto h-[2px]' />
             </div>
-            <div className='w-[460px] mt-[30px]'>
+            <div className='w-[460px] mt-[30px] mx-auto'>
                 <a href="https://www.ataevbahodirbuild.uz/" className='font-bold text-white ml-[10px]'>ataevbahodirbuild.uz</a>
                 <img className='w-[450px] mt-[10px] mb-[15px]  hover:scale-[1.1] transition-all duration-[0.4s]' src={ittime} alt="" />
                 <p><a className='font-500 text-center text-white' href="https://www.ataevbahodirbuild.uz/">{t("project.description")}</a></p>
                 <hr className='bg-gray-500 w-[450px] mt-[20px] mx-auto h-[2px]' />
             </div>
-            <div className='w-[460px] mt-[30px]'>
+            <div className='w-[460px] mt-[30px] mx-auto'>
                 <a href="https://www.ataevbahodirbuild.uz/" className='font-bold text-white ml-[10px]'>ataevbahodirbuild.uz</a>
                 <img className='w-[450px] mt-[10px] mb-[15px]  hover:scale-[1.1] transition-all duration-[0.4s]' src={homekit} alt="" />
                 <p><a className='font-500 text-center text-white' href="https://www.ataevbahodirbuild.uz/">{t("project.description")}</a></p>
                 <hr className='bg-gray-500 w-[450px] mt-[20px] mx-auto h-[2px]' />
             </div>
-            <div className='w-[460px] mt-[30px]'>
+            <div className='w-[460px] mt-[30px] mx-auto'>
                 <a href="https://www.ataevbahodirbuild.uz/" className='font-bold text-white ml-[10px]'>ataevbahodirbuild.uz</a>
                 <img className='w-[450px] mt-[10px] mb-[15px]  hover:scale-[1.1] transition-all duration-[0.4s]' src={uzloyal} alt="" />
                 <p><a className='font-500 text-center text-white' href="https://www.ataevbahodirbuild.uz/">{t("project.description")}</a></p>
                 <hr className='bg-gray-500 w-[450px] mt-[20px] mx-auto h-[2px]' />
             </div>
-            <div className='w-[460px] mt-[30px]'>
+            <div className='w-[460px] mt-[30px] mx-auto'>
                 <a href="https://www.ataevbahodirbuild.uz/" className='font-bold text-white ml-[10px]'>ataevbahodirbuild.uz</a>
                 <img className='w-[450px] mt-[10px] mb-[15px]  hover:scale-[1.1] transition-all duration-[0.4s]' src={oits} alt="" />
                 <p><a className='font-500 text-center text-white' href="https://www.ataevbahodirbuild.uz/">{t("project.description")}</a></p>
                 <hr className='bg-gray-500 w-[450px] mt-[20px] mx-auto h-[2px]' />
             </div>
-            <div className='w-[460px] mt-[30px]'>
+            <div className='w-[460px] mt-[30px] mx-auto'>
                 <a href="https://www.ataevbahodirbuild.uz/" className='font-bold text-white ml-[10px]'>ataevbahodirbuild.uz</a>
                 <img className='w-[450px] mt-[10px] mb-[15px]  hover:scale-[1.1] transition-all duration-[0.4s]' src={partnyor} alt="" />
                 <p><a className='font-500 text-center text-white' href="https://www.ataevbahodirbuild.uz/">{t("project.description")}</a></p>
                 <hr className='bg-gray-500 w-[450px] mt-[20px] mx-auto h-[2px]' />
             </div>
-            <div className='w-[460px] mt-[30px]'>
+            <div className='w-[460px] mt-[30px] mx-auto'>
                 <a href="https://www.ataevbahodirbuild.uz/" className='font-bold text-white ml-[10px]'>ataevbahodirbuild.uz</a>
                 <img className='w-[450px] mt-[10px] mb-[15px]  hover:scale-[1.1] transition-all duration-[0.4s]' src={zamon} alt="" />
                 <p><a className='font-500 text-center text-white' href="https://www.ataevbahodirbuild.uz/">{t("project.description")}</a></p>

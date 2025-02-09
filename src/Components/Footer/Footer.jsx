@@ -13,7 +13,7 @@ function Footer() {
   return (
     <div>
       <div className="bg-[#212121] flex flex-col xl:flex-row xl:justify-evenly pt-12 px-6">
-        <div className="mb-8 xl:mb-0">
+        <di className="mb-8 xl:mb-0 mx-auto">
           <h1 className="text-white text-2xl md:text-3xl xl:text-4xl font-bold max-w-xl">
             {t("footer.order_title")}
           </h1>
@@ -33,8 +33,8 @@ function Footer() {
               {t("footer.services")}
             </a>
           </div>
-        </div>
-        <div className="grid grid-cols-1">
+        </di>
+        <div className="grid grid-cols-1 mx-auto mb-[30px]">
           <h1 className="text-white text-2xl md:text-3xl xl:text-5xl font-bold">
             {t("footer.leave_details")}
           </h1>
